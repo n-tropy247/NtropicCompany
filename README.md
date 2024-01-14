@@ -11,3 +11,5 @@
 * [SkinwalkerMod](https://www.nexusmods.com/lethalcompany/mods/114?tab=files)
 # Modloader:
 * [BepInEx](https://www.nexusmods.com/lethalcompany/mods/42?tab=files)
+# Credits:
+All credit for the install/uninstall/update scripts goes to [PenguCC](https://www.nexusmods.com/lethalcompany/users/196787651) over at NexusMods who created these for their [LethalExtended](https://www.nexusmods.com/lethalcompany/mods/108/) pack.
