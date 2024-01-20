@@ -12,13 +12,13 @@ echo(Game Installation Directory : %gameInstallationDirectory%
 
 RMDIR /S /Q "C:\update-temp\"
 mkdir C:\update-temp
-curl -L "https://github.com/n-tropy247/NtropicCompany/releases/download/v1.0/release.zip" --output "C:\update-temp\Lethal-Extended-Latest.zip"
-powershell Expand-Archive "C:\update-temp\Lethal-Extended-Latest.zip" -DestinationPath "C:\update-temp"
+curl -L "https://github.com/n-tropy247/NTropicCompany/archive/main.zip" --output "C:\update-temp\NtropicCompany.zip"
+powershell Expand-Archive "C:\update-temp\NtropicCompany.zip" -DestinationPath "C:\update-temp"
 powershell -command "Start-Sleep -s 2"
 del /q /s "%gameInstallationDirectory%\BepInEx\*"
-del /s "C:\update-temp\Lethal-Extended-Latest.zip"
+del /s "C:\update-temp\NtropicCompany.zip"
 xcopy /e "C:\update-temp" "%gameInstallationDirectory%" /Y
-xcopy /e "C:\update-temp\update-scripts-shortcuts\update-lethal-extended.bat" "%USERPROFILE%\Documents\" /Y
+xcopy /e "C:\update-temp\update.bat" "%USERPROFILE%\Documents\" /Y
 RMDIR /S /Q "C:\update-temp\"
 echo(Update Finished!
 pause
