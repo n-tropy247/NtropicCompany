@@ -17,8 +17,8 @@ powershell Expand-Archive "C:\update-temp\NtropicCompany.zip" -DestinationPath "
 powershell -command "Start-Sleep -s 2"
 del /q /s "%gameInstallationDirectory%\BepInEx\*"
 del /s "C:\update-temp\NtropicCompany.zip"
-xcopy /e "C:\update-temp" "%gameInstallationDirectory%" /Y
-xcopy /e "C:\update-temp\update.bat" "%USERPROFILE%\Documents\" /Y
+xcopy /e "C:\update-temp\NtropicCompany-main" "%gameInstallationDirectory%" /Y
+xcopy /e "C:\update-temp\NtropicCompany-main\update.bat" "%USERPROFILE%\Documents\" /Y
 RMDIR /S /Q "C:\update-temp\"
 echo(Update Finished!
 pause
