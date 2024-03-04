@@ -8,7 +8,7 @@
 * [HDLethalCompany](https://www.nexusmods.com/lethalcompany/mods/70?tab=files)
 * [FixResolution](https://www.nexusmods.com/lethalcompany/mods/8?tab=files)
 * [ShipLoot](https://www.nexusmods.com/lethalcompany/mods/11?tab=files)
-* [SkinwalkerMod](https://www.nexusmods.com/lethalcompany/mods/114?tab=files)
+* [SkinwalkerMod]([https://www.nexusmods.com/lethalcompany/mods/114?tab=files](https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/))
 * [ShipLobby](https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLobby/)
 # Modloader:
 * [BepInEx](https://www.nexusmods.com/lethalcompany/mods/42?tab=files)
